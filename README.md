@@ -31,3 +31,9 @@ The log files in the dataset are partitioned by year and month. For example, her
 
     log_data/2018/11/2018-11-12-events.json
     log_data/2018/11/2018-11-13-events.json
+
+## Author
+Vesa Jaakola
+
+## Acknowledgements
+Must give credit to Udacity
