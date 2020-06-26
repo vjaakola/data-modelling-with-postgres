@@ -2,10 +2,17 @@
 
 A startup called Sparkify wants to analyze the data they've been collecting on songs and user activity on their new music streaming app. The analytics team is particularly interested in understanding what songs users are listening to. Currently, they don't have an easy way to query their data, which resides in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
-In this project, I'll demonstrate data modeling with Postgres and build an ETL pipeline using Python. I will also define fact and dimension tables for a star schema for a particular analytic focus, and write an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.
+In this project, I'll demonstrate data modeling with Postgres and build an ETL pipeline using Python. 
 
 This project is part of Udacity's Data Engineer Nanodegree program.
 This is a simplified repository for only codes, the data is no available here.
+
+## Database Schema
+
+![Image of star schema](https://github.com/vjaakola/data-modelling-with-postgres/blob/master/star_schema%20ERD.png)
+
+Designing a database model with star schema is a good way to do the desired analysis. 
+First I will define a fact and dimension tables for a star schema for a particular analytic focus, and then I will write an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.
 
 
 ## Datasets
