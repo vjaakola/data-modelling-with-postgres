@@ -5,6 +5,7 @@ A startup called Sparkify wants to analyze the data they've been collecting on s
 In this project, I'll demonstrate data modeling with Postgres and build an ETL pipeline using Python. I will also define fact and dimension tables for a star schema for a particular analytic focus, and write an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.
 
 This project is part of Udacity's Data Engineer Nanodegree program.
+This is a simplified repository for only codes, the data is no available here.
 
 
 ## Datasets
