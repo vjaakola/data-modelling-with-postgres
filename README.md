@@ -9,7 +9,7 @@ This is a simplified repository for only codes, the data is no available here.
 
 ## Database Schema
 
-![Image of star schema](https://github.com/vjaakola/data-modelling-with-postgres/blob/master/star_schema%20ERD.png)
+![Image of star schema](https://github.com/vjaakola/data-modelling-with-postgres/blob/master/star_schema_ERD.png)
 
 Designing a database model with star schema is a good way to do the desired analysis. 
 First I will define a fact and dimension tables for a star schema for a particular analytic focus, and then I will write an ETL pipeline that transfers data from files in two local directories into these tables in Postgres using Python and SQL.
